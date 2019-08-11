@@ -136,9 +136,3 @@ class crob
     }
 
 }
-
-$cron = new crob;
-$list = $cron->clear();
-$rtn = $cron->setMinute( 5 )->addJob( 'ls >> /tmp/ls.log' );
-$list = $cron->getLocalList();
-var_dump( $list );
