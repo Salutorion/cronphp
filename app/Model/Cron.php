@@ -1,10 +1,11 @@
 <?php
 
-class crob
+namespace App\Model;
+
+class cron
 {
     private $_cronBin = '/usr/bin/crontab';
 
-    
     private $_tmpFile = '/tmp/cronJob';
 
     /**

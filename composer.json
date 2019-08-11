@@ -1,0 +1,25 @@
+{
+    "name": "cuePHP/framework",
+    "type": "library",
+    "description": "a php framework for REST api",
+    "keywords": ["framework","micro","api","simple"],
+    "authors": [
+        {
+            "name": "solat.yolo",
+            "email": "solat.yolo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "framework/",
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+    }
+}
